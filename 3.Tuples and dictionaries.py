@@ -27,6 +27,7 @@ syntax:dict.items()
 -Update:
 syntax:dict.update({key:value})
 Details.update({'gender':'female'}) or
+Details["age"]=21
 -clear:
 syntax:dict.clear()'''
 Details={'name':'sandy',
