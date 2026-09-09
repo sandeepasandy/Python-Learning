@@ -67,6 +67,7 @@ import random
 print(random.randint(1000,9999))
 
 math:
+
 import math
 print(math.sqrt(25))
 
@@ -74,7 +75,7 @@ sys:
 import sys
 print(sys.version)
 
-'''
+
 details ={
     'name' : 'sandy',
     'ATM PIN' : '1212'
@@ -96,6 +97,61 @@ while remain_ > 0:
                 print(f"incorrect pin entered and you have {remain_}")
             else:
                 print(f"you have entered 3 times incorrect pin card blocked")
+
+
+'''
+
+'''math:
+
+floor:
+--it will round up the near value
+eg:
+import math
+print(math.ceil(3.78))
+import math
+print(math.gcd(24,36))
+
+lcm:It will find the value
+eg:
+import math
+print(math.lcm(24,36))
+
+sqrt:it will get sqrt value
+eg:'''
+import math
+print(math.sqrt(24))
+'''
+import math
+print(math.factorial(5))
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

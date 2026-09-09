@@ -43,7 +43,7 @@ for i in range(7):
     password += random.choice(all_chars)
 
 print(password)
-
+'''
 bank_balance = 30000
 from datetime import datetime
 import sys
@@ -53,25 +53,25 @@ while True:
     print("----Welcome to SBI ATM----")
     user_opt = int(input("\n1.Withdraw \n2.Deposit \n3.check balance \n4.exit:"))
     if user_opt == 1:
-        With_m = int(input('Enter the money you want to withdraw'))
-        if With_m > bank_balance:
+        With_m = int(input('Enter the money you want to withdraw:'))
+        if With_m <= bank_balance:
             bank_balance -= With_m
-            print(f'remaining money {bank_balance} {now.strftime} ("%H:%M %Y-%m-%d")')
+            print(f'remaining money: {bank_balance} {now.strftime("%H:%M %Y-%m-%d")}')
         else:
             print("Insufficient balance")
     elif user_opt == 2:
-        Deposit_m = int(input('Enter the money to deposit'))
+        Deposit_m = int(input('Enter the money to deposit:'))
         bank_balance += Deposit_m
-        print(f'Money added successfully: {bank_balance} {now.strftime} ("%H:%M %Y-%m-%d")')
+        print(f'Money added successfully: {bank_balance} {now.strftime("%H:%M %Y-%m-%d")}')
     elif user_opt == 3:
-        print(f'Available balance: {bank_balance} {now.strftime} ("%H:%M %Y-%m-%d")')
+        print(f'Available balance: {bank_balance} {now.strftime("%H:%M %Y-%m-%d")}')
     elif user_opt == 4:
         sys.exit()
     else:
         print("incorrect choice")
         print("Thank you for visting the ATM")
         sys.exit()
-'''
+'''      
 import random
 num = random.randint(1,100)
 user_opt = int(input("Pick a number(1-100): "))
@@ -79,7 +79,7 @@ if user_opt == num:
     print(f'You have picked {user_opt} number')
 else:
     print('Better luck next time')
-                   
+'''               
 
 
 

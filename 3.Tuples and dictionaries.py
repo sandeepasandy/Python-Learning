@@ -1,7 +1,8 @@
 '''1.Tuple:
-Tuple is acollection of different datatype that are represented in
+Tuple is a collection of different datatype that are represented in
 ()paranthesis and separated by,
 Tuple is immuttable
+
 -Methods:
 index:syntax--variable_name.index(item)
 ex:
@@ -27,7 +28,6 @@ syntax:dict.items()
 -Update:
 syntax:dict.update({key:value})
 Details.update({'gender':'female'}) or
-Details["age"]=21
 -clear:
 syntax:dict.clear()'''
 Details={'name':'sandy',

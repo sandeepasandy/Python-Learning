@@ -1,6 +1,6 @@
 ''' --> This module is used to send a mail without using mail or outlook by running the python code
     --> Here by using port (587) 
-'''
+
 
 import smtplib
 sender_email='sandeepa.sandy789@gmail.com'
@@ -26,9 +26,9 @@ import smtplib
 from email.message import EmailMessage
 
 msg=EmailMessage()
-sender_email='anupojumeghana07@gmail.com'
+sender_email='sandeepa.sandy789@gmail.com'
 sender_app_password='qglu xdoi lgke mule'
-receiver_email='anupojumeghana09@gmail.com'
+receiver_email='sandeepa.sandy789@gmail.com'
 
 msg['from']=sender_email
 msg['to']=receiver_email
@@ -58,9 +58,9 @@ import smtplib
 from email.message import EmailMessage
 
 msg=EmailMessage()
-sender_email='anupojumeghana07@gmail.com'
+sender_email='sandeepa.sandy789@gmail.com'
 sender_app_password='qglu xdoi lgke mule'
-receiver_email='anupojumeghana09@gmail.com'
+receiver_email='sandeepa.sandy789@gmail.com'
 
 msg['from']=sender_email
 msg['to']=receiver_email

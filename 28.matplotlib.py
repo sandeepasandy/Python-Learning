@@ -69,13 +69,14 @@ plt.xlabel('Sales')
 plt.ylabel('Frequency')
 plt.show()
 
-'''
+boxplot:
+eg:
 import matplotlib.pyplot as plt
 marks = [40,50,60,70,80,90]
 plt.boxplot(marks)
 plt.show()
 
-
+'''
 
 
 

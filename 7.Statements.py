@@ -64,11 +64,11 @@ else:
 5.Pass:
 --Space holder
 --if a statement is incomplete if we put pass after that no error will be raised
-ex:'''
+ex:
 num = [24,36,78,45,90]
 for i in num:
     pass
-'''>>>Loops:
+>>>Loops:
 6.for loop:
 --for loop is used to itterate over sequence such as string,List,tuple,
 --else in for loop it will execute when whole itterates are completed.
@@ -98,7 +98,7 @@ eg:
 age = 13
 assert age>=18, 'Not eligible'
 print('eligible')
-eg2:'''
+eg2:
 Marks_ = 67
 assert Marks_ >= 35, 'Fail'
 print('Pass')  

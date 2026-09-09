@@ -131,6 +131,7 @@ if find:
 else:
     print('Not an Indian number')
 '''
+---Difference between + and * 
 import re
 some = 'The Not an Indian number'
 print(re.findall('T.+he',some))

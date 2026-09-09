@@ -94,7 +94,6 @@ data1.only_name()
 data1.only_batch()
 data1.only_age()
 data1.only_fee()
-
 3.private(__name):
 adding (__) before a variable it becomes private
 syntax:
@@ -117,6 +116,9 @@ ac = bank_ac()
 ac.details()
 ac.bank_bal()
 
+
+
+
 --Example by using public,protected and private specifiers:
 class employee:
     def __init__(self):
@@ -138,7 +140,7 @@ emp.details()
 emp.income_()
 emp.type_()
 
-Practice:'''
+Practice:
 class university:
     def __init__(self):
         self.name = 'Sony'
@@ -149,7 +151,16 @@ student_ = university()
 print(student_.name)
 print(student_.id)
 print(student_.city)
-
+'''
+class book:
+    def __init__(self):
+        self.bookname = 'Python Textbook'
+        self.__author = 'Rossum'
+        self._id = 1234
+        self._price = 500
+    def details(self):
+        print(self.bookname)
+    def 
 
 
 
