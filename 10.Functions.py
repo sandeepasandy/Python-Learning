@@ -63,12 +63,55 @@ def Name_(name_,name):
     print(name_)
 Name_(name = 'sandy',name_ = 'sandeepa')
 
-eg2:'''
+eg2:
 def pos_(m,d,a,c,b):
 
-    print(pos_)
+    print(a)
 
 pos_(a=0,b=8,c=4,d=1,m=7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -74,7 +74,7 @@ num = 10
 for j in range(num,0,-1):
     print(" " * (num -j),end = '')
     print('* ' * j)
-10.
+10.Repeated numbers:
 nums = [1,2,2,5,5]
 emt_ = []
 for j in nums:

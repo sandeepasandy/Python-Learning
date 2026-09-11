@@ -156,8 +156,8 @@ ex:
 import numpy as np
 arr_ = np.arange(1,100)
 print(arr_.reshape(3,3))
-print(arr_)'''
-
+print(arr_)
+ex2:
 import numpy as np
 arr_ = np.arange(1,10)
 arr_2 = arr_.reshape(3,3)

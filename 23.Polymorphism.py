@@ -41,7 +41,7 @@ Polymorphism:
 --This method overloading happens in the class a method is created
 this same name,but the recent method will be activated and the
 before one will not be considered
-ex:
+ex:'''
 class data_:
     def add_(self,a,b,c=0):
         return a+b+c
@@ -51,7 +51,7 @@ class data_:
         return a+b+c+d
 obj = data_()
 print(obj.add_(2,5,7,8))
-
+'''
 2.Method Overriding:
 --This method overriding happens when a parent class and child class
 have same method and the child class takes its own implementation
@@ -75,6 +75,7 @@ go.payment()
 --Operator Overloading which gives the special meaning to the
 operator when it is called by the object
 1.__add__:
+ex:
 class cal:
     def __init__(self,any_):
         self.any_ = any_
@@ -86,6 +87,7 @@ who = cal(67)
 print(how + who)
 
 2.__sub__:
+ex:
 class cal:
     def __init__(self,any_):
         self.any_ = any_
@@ -97,6 +99,7 @@ who = cal(67)
 print(how-who)
 
 3.__mul__:
+ex:
 class cal:
     def __init__(self,any_):
         self.any_ = any_
@@ -108,19 +111,17 @@ who = cal(67)
 print(how*who)
 
 4.__truediv__ #it is for division
-
-
-'''
+ex:
 class cal:
     def __init__(self,any_):
         self.any_ = any_
     def __truediv__(self,do):
-        print(self.any_ / do.any_)
+        print(self.any_ - do.any_)
 how = cal(78)
 who = cal(67)
 
-print(how/who)
-
+print(how/who)#override this operator
+'''
 
 
 

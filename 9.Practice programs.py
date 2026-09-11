@@ -33,34 +33,60 @@ elif opt_ == 2:
 elif opt_ == 3:
     print(num_1 * num_2)
 elif opt_ == 4:
-    print(num_1 % num_2)
+    print(num_1 / num_2)
 5.ATM:'''
 SBI_Sandeepa = {'name' : 'Sandeepa',
                 'Adr' : "1356897",
                 'Pan' : 'gh565httdb',
                 'ATM PIN' : '1212',
-                'Balance' : 45000}
+                'Balance' : 45000,
+                'Transaction History':[]}
+import random
 remain_A = 3
 while remain_A > 0:
     pin_ = input("Enter your 4 digit pin: ")
     if len(pin_) == 4:
         if pin_ in SBI_Sandeepa['ATM PIN']:
+            otp = random.randint(1000,9999)
+            print(otp)
+            user_otp = int(input('Enter user otp: '))
             opt_ = int(input('Enter \n1.Withdraw \n2.Deposite \n3.Balance: '))
             if opt_ == 1:
                 Withdraw_m = int(input('Enter the amount to Withdraw: '))
                 if Withdraw_m <=  SBI_Sandeepa['Balance'] and Withdraw_m % 100 == 0:
                      SBI_Sandeepa['Balance'] -= Withdraw_m
                      print(f"you have withdraw {Withdraw_m} and the total balance is {SBI_Sandeepa['Balance']}")
-                     break
+                     user_ = int(input('Enter \n1.Home Page \n2.Exit: '))
+                     if user_ == 1:
+                        print('Home Page')
+                     else:
+                        print('Exit')
+                        break
                 else:
                     print('Can not provide change or no balance')
-                    break
+                    if user_ == 1:
+                        print('Home Page')
+                    else:
+                        print('Exit')
+                        break
             elif opt_ == 2:
-                pass
-            elif opt_ == 3:
-                pass
-            else:
-                remain_A -=1
+                deposite_m = int(input("Enter the money you want to deposite: "))
+                if deposite_m %100 == 0:
+                    SBI_Sandeepa['Balance'] += deposite_m
+                    print(f'you have deposited {deposite_m} and the total balance is: ')
+                    user_ = int(input('Enter \n1.Home Page \n2.Exit: '))
+                    if user_ == 1:
+                        print('Home Page')
+                    else:
+                        print('Exit')
+                        break
+                else:
+                    print('Change can not be deposite')
+                    if user_ == 1:
+                        print('Home Page')
+                    else:
+                        print('Exit')
+                        
             if remain_A > 0:
                 print(f'Incorrect pin you have only {remain_A}')
             else:
